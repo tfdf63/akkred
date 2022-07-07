@@ -9,7 +9,7 @@ header {
     margin: 0 auto;
 }
 
-.row {
+.header__item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,11 +17,11 @@ header {
 
 }
 
-.img_logo {
+.img__logo {
     width: 30px;
 }
 
-.row_col1_text {
+.header__text {
     font-family: Roboto, 'Arial Narrow Bold', sans-serif;
     font-size: 18px;
     font-weight: 400;
