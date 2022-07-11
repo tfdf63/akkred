@@ -88,3 +88,41 @@ header {
     width: 90px;
     /*height: 80px;*/
 }
+
+.sectioin {
+    position: relative;
+}
+.section__row {
+    display: flex;
+    justify-content: space-between;
+}
+.section__column {
+    width: 600px;
+    margin: 0 auto;
+}
+.section__item {
+    display: block;
+    justify-content: space-between;
+    align-items:baseline;
+}
+.section__title {
+    margin: 4px auto;
+    padding-top: 8px;
+    font-size: 28px;
+    font-weight: bold;
+    width: 300px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 20px;
+}
+.section__text {
+}
+.section__foto {
+    width: 10px;
+    height: 20px;
+}
+
+.section__logo {
+    width: 32px;
+    height: 32px;
+}
